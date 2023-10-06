@@ -79,6 +79,10 @@ form .input-wrapper input {
     color: hsla(0, 0%, 100%, 0.87);
 }
 
+.input-wrapper input:focus-visible {
+    outline: none;
+}
+
 header nav .avatar {
     width: 4.2rem;
     height: 4.2rem;
